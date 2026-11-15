@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:media="http://search.yahoo.com/mrss/" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+  <title>Office Sorted</title>
+  <link>https://officesorted.github.io/</link>
+  <description>Excel templates, AI prompts and IT tips for small business office admin.</description>
+  <language>en-gb</language>
+  <lastBuildDate>Sun, 15 Nov 2026 22:46:14 +0000</lastBuildDate>
+  <atom:link href="https://officesorted.github.io/feed.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title>5 Excel Shortcuts Every Office Worker Should Know</title>
+    <link>https://payhip.com/b/LPB7A</link>
+    <guid isPermaLink="false">pin-31</guid>
+    <pubDate>Sun, 15 Nov 2026 06:00:00 +0000</pubDate>
+    <description>Five Excel keyboard shortcuts every office worker should know. Save this and try one today.</description>
+    <enclosure url="https://officesorted.github.io/pins/pin_31.png" type="image/png" length="0"/>
+    <media:content url="https://officesorted.github.io/pins/pin_31.png" medium="image" type="image/png"/>
+  </item>
+</channel>
+</rss>
