@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:media="http://search.yahoo.com/mrss/" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+  <title>Drive Sorted</title>
+  <link>https://officesorted.github.io/driving/</link>
+  <description>UK learner driver tips: costs, tests and planning.</description>
+  <language>en-gb</language>
+  <lastBuildDate>Mon, 16 Nov 2026 16:13:04 +0000</lastBuildDate>
+  <atom:link href="https://officesorted.github.io/feed-driving.xml" rel="self" type="application/rss+xml"/>
+
+</channel>
+</rss>
