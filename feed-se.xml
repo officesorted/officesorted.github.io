@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:media="http://search.yahoo.com/mrss/" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+  <title>Self-Employed Sorted</title>
+  <link>https://officesorted.github.io/self-employed/</link>
+  <description>UK sole trader and side hustle tax, expenses and invoicing tips.</description>
+  <language>en-gb</language>
+  <lastBuildDate>Mon, 16 Nov 2026 01:38:29 +0000</lastBuildDate>
+  <atom:link href="https://officesorted.github.io/feed-se.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title>Self Assessment 31 January Checklist (UK)</title>
+    <link>https://officesorted.github.io/self-employed/?utm_source=pinterest&amp;utm_medium=rss&amp;utm_content=se01#free</link>
+    <guid isPermaLink="false">se-1</guid>
+    <pubDate>Mon, 16 Nov 2026 06:00:00 +0000</pubDate>
+    <description>Everything to gather before the 31 January 2027 Self Assessment deadline: UTR, login, income, expenses and mileage.</description>
+    <enclosure url="https://officesorted.github.io/pins/se_01.png" type="image/png" length="0"/>
+    <media:content url="https://officesorted.github.io/pins/se_01.png" medium="image" type="image/png"/>
+  </item>
+</channel>
+</rss>
