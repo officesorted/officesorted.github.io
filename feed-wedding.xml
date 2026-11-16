@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:media="http://search.yahoo.com/mrss/" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+  <title>Home Sorted Wedding Planning</title>
+  <link>https://officesorted.github.io/home/</link>
+  <description>UK wedding budget and planning tips.</description>
+  <language>en-gb</language>
+  <lastBuildDate>Mon, 16 Nov 2026 02:56:19 +0000</lastBuildDate>
+  <atom:link href="https://officesorted.github.io/feed-wedding.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title>Wedding Planning: What to Book First (UK)</title>
+    <link>https://officesorted.github.io/home/?utm_source=pinterest&amp;utm_medium=rss&amp;utm_content=wed01#wedding</link>
+    <guid isPermaLink="false">wed-1</guid>
+    <pubDate>Mon, 16 Nov 2026 06:00:00 +0000</pubDate>
+    <description>Start with budget and guest numbers, then venue and date, photographer and caterer. Free UK wedding planning checklist.</description>
+    <enclosure url="https://officesorted.github.io/pins/wed_01.png" type="image/png" length="0"/>
+    <media:content url="https://officesorted.github.io/pins/wed_01.png" medium="image" type="image/png"/>
+  </item>
+</channel>
+</rss>
