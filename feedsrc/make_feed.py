@@ -10,13 +10,11 @@ from xml.sax.saxutils import escape
 
 HERE = Path(__file__).resolve().parent
 SITE_DIR = HERE.parent
-data = json.loads((HERE / "queue.json").read_text(encoding="utf-8"))
-site = data["site"]
+FEEDS = [  # (queue file, output file, channel title, channel description)
+    ("queue.json", "feed.xml", "Office Sorted", "Excel templates, AI prompts and IT tips for small business office admin."),
+    ("queue-home.json", "feed-home.xml", "Home Sorted", "UK household budget, debt and savings tips and spreadsheets."),
+]
 today = datetime.now(timezone.utc).date().isoformat()
-
-released = [i for i in data["items"] if i["release"] <= today]
-released.sort(key=lambda i: i["release"], reverse=True)
-released = released[:50]  # newest 50 is plenty; Pinterest only picks up new items
 
 
 def item_xml(i):
@@ -33,19 +31,28 @@ def item_xml(i):
   </item>"""
 
 
-now = format_datetime(datetime.now(timezone.utc))
-xml = f"""<?xml version="1.0" encoding="UTF-8"?>
+for qfile, out, ch_title, ch_desc in FEEDS:
+    qpath = HERE / qfile
+    if not qpath.exists():
+        continue
+    data = json.loads(qpath.read_text(encoding="utf-8"))
+    site = data["site"]
+    released = [i for i in data["items"] if i["release"] <= today]
+    released.sort(key=lambda i: i["release"], reverse=True)
+    released = released[:50]  # newest 50 is plenty; Pinterest only picks up new items
+    now = format_datetime(datetime.now(timezone.utc))
+    xml = f"""<?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:media="http://search.yahoo.com/mrss/" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel>
-  <title>Office Sorted</title>
+  <title>{escape(ch_title)}</title>
   <link>{escape(site)}</link>
-  <description>Excel templates, AI prompts and IT tips for small business office admin.</description>
+  <description>{escape(ch_desc)}</description>
   <language>en-gb</language>
   <lastBuildDate>{now}</lastBuildDate>
-  <atom:link href="{escape(site)}feed.xml" rel="self" type="application/rss+xml"/>
+  <atom:link href="https://officesorted.github.io/{out}" rel="self" type="application/rss+xml"/>
 {os.linesep.join(item_xml(i) for i in released)}
 </channel>
 </rss>
 """
-(SITE_DIR / "feed.xml").write_text(xml, encoding="utf-8")
-print(f"feed.xml: {len(released)} items released (as of {today}); {len(data['items']) - len(released)} still queued")
+    (SITE_DIR / out).write_text(xml, encoding="utf-8")
+    print(f"{out}: {len(released)} items released (as of {today}); {len(data['items']) - len(released)} still queued")
