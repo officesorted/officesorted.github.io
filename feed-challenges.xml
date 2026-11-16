@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:media="http://search.yahoo.com/mrss/" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+  <title>Home Sorted Savings Challenges</title>
+  <link>https://officesorted.github.io/home/</link>
+  <description>UK money saving challenges and printables for 2027.</description>
+  <language>en-gb</language>
+  <lastBuildDate>Mon, 16 Nov 2026 02:47:41 +0000</lastBuildDate>
+  <atom:link href="https://officesorted.github.io/feed-challenges.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title>1p a Day Savings Challenge 2027 (Free UK Printable)</title>
+    <link>https://officesorted.github.io/home/?utm_source=pinterest&amp;utm_medium=rss&amp;utm_content=chal01#penny</link>
+    <guid isPermaLink="false">chal-1</guid>
+    <pubDate>Mon, 16 Nov 2026 06:00:00 +0000</pubDate>
+    <description>Save 1p on day 1, 2p on day 2, up to £3.65 on day 365. Total £667.95. Free printable UK penny challenge for 2027.</description>
+    <enclosure url="https://officesorted.github.io/pins/chal_01.png" type="image/png" length="0"/>
+    <media:content url="https://officesorted.github.io/pins/chal_01.png" medium="image" type="image/png"/>
+  </item>
+</channel>
+</rss>

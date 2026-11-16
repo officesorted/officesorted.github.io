@@ -15,6 +15,7 @@ FEEDS = [  # (queue file, output file, channel title, channel description)
     ("queue-home.json", "feed-home.xml", "Home Sorted", "UK household budget, debt and savings tips and spreadsheets."),
     ("queue-se.json", "feed-se.xml", "Self-Employed Sorted", "UK sole trader and side hustle tax, expenses and invoicing tips."),
     ("queue-books.json", "feed-books.xml", "Dino Noodle", "Dinosaur colouring pages and activity books for ages 3-6."),
+    ("queue-challenges.json", "feed-challenges.xml", "Home Sorted Savings Challenges", "UK money saving challenges and printables for 2027."),
 ]
 today = datetime.now(timezone.utc).date().isoformat()
 
