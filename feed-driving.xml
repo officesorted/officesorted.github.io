@@ -5,8 +5,16 @@
   <link>https://officesorted.github.io/driving/</link>
   <description>UK learner driver tips: costs, tests and planning.</description>
   <language>en-gb</language>
-  <lastBuildDate>Mon, 16 Nov 2026 16:13:04 +0000</lastBuildDate>
+  <lastBuildDate>Mon, 16 Nov 2026 16:13:46 +0000</lastBuildDate>
   <atom:link href="https://officesorted.github.io/feed-driving.xml" rel="self" type="application/rss+xml"/>
-
+  <item>
+    <title>Learner Driver Costs UK 2026: Licence, Theory and Practical Test Fees</title>
+    <link>https://officesorted.github.io/driving/?utm_source=pinterest&amp;utm_medium=rss&amp;utm_content=drv01#free</link>
+    <guid isPermaLink="false">drv-1</guid>
+    <pubDate>Mon, 16 Nov 2026 06:00:00 +0000</pubDate>
+    <description>Provisional licence £34-£43, theory test £23, practical test £62 on weekdays and £75 evenings, weekends and bank holidays. Free learner driver checklist.</description>
+    <enclosure url="https://officesorted.github.io/pins/drv_01.png" type="image/png" length="0"/>
+    <media:content url="https://officesorted.github.io/pins/drv_01.png" medium="image" type="image/png"/>
+  </item>
 </channel>
 </rss>
