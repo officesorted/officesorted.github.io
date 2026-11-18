@@ -16,6 +16,7 @@ FEEDS = [  # (queue file, output file, channel title, channel description)
     ("queue-se.json", "feed-se.xml", "Self-Employed Sorted", "UK sole trader and side hustle tax, expenses and invoicing tips."),
     ("queue-books.json", "feed-books.xml", "Dino Noodle", "Dinosaur colouring pages and activity books for ages 3-6."),
     ("queue-driving.json", "feed-driving.xml", "Drive Sorted", "UK learner driver tips: costs, tests and planning."),
+    ("queue-escape.json", "feed-escape.xml", "Printable Escape Rooms", "Printable escape room puzzle adventures for kids: family night, parties and classrooms."),
     ("queue-wedding.json", "feed-wedding.xml", "Home Sorted Wedding Planning", "UK wedding budget and planning tips."),
     ("queue-challenges.json", "feed-challenges.xml", "Home Sorted Savings Challenges", "UK money saving challenges and printables for 2027."),
 ]

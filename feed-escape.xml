@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:media="http://search.yahoo.com/mrss/" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+  <title>Printable Escape Rooms</title>
+  <link>https://officesorted.github.io/escape-rooms/</link>
+  <description>Printable escape room puzzle adventures for kids: family night, parties and classrooms.</description>
+  <language>en-gb</language>
+  <lastBuildDate>Wed, 18 Nov 2026 12:09:30 +0000</lastBuildDate>
+  <atom:link href="https://officesorted.github.io/feed-escape.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title>Free Printable Escape Room Puzzle for Kids (Ages 5-8)</title>
+    <link>https://officesorted.github.io/escape-rooms/?utm_source=pinterest&amp;utm_medium=rss&amp;utm_content=esc02#free</link>
+    <guid isPermaLink="false">esc-2</guid>
+    <pubDate>Wed, 18 Nov 2026 06:00:00 +0000</pubDate>
+    <description>Try before you buy: a free printable puzzle and grown-up guide from the Dino Noodle escape room. Instant download PDF.</description>
+    <enclosure url="https://officesorted.github.io/pins/esc_02.png" type="image/png" length="0"/>
+    <media:content url="https://officesorted.github.io/pins/esc_02.png" medium="image" type="image/png"/>
+  </item>
+  <item>
+    <title>Printable Escape Room for Kids: Dino Noodle and the Missing Egg</title>
+    <link>https://officesorted.github.io/escape-rooms/?utm_source=pinterest&amp;utm_medium=rss&amp;utm_content=esc01#game</link>
+    <guid isPermaLink="false">esc-1</guid>
+    <pubDate>Tue, 17 Nov 2026 06:00:00 +0000</pubDate>
+    <description>A printable puzzle adventure for ages 5-8: five puzzles, a secret code and a final lock. Print at home and play in 30-45 minutes. Instant download PDF.</description>
+    <enclosure url="https://officesorted.github.io/pins/esc_01.png" type="image/png" length="0"/>
+    <media:content url="https://officesorted.github.io/pins/esc_01.png" medium="image" type="image/png"/>
+  </item>
+</channel>
+</rss>
